@@ -35,6 +35,7 @@ Give ROSE a try with the following tutorials:
 [Working with Complex Types](/rose-complex-types)
   * This is a tutorial for working with more complex types when traversing the ROSE AST.
   * Check your understanding with the [Practical](/rose-complex-types-practical) for this chapter.
+  * Check your understanding with the [Exam](/rose-complextypes-test) for this chapter.
 
 [Debugging Translators](/rose-debugging)
   * This is a tutorial for debugging ROSE translators.
