@@ -111,15 +111,15 @@ layout: default
       pwcUrl = '{{site.pwdurl}}';
     };
 
-    pwd.newSession([{selector: '.term1'}, {selector: '.term2'}, {selector: '.term3'}], {baseUrl: pwcUrl, ImageName: dockerImage});
+    //pwd.newSession([{selector: '.term1'}, {selector: '.term2'}, {selector: '.term3'}], {baseUrl: pwcUrl, ImageName: dockerImage});
     //$(".panel-left").resizable({
       //  handleSelector: ".splitter",
       //  resizeHeight: false,
       //  onDragEnd: pwd.resize.bind(pwd)
     //});
-    window.onbeforeunload = function(e) {
-        pwd.closeSession(function(){});
-        return;
-    }
+    //window.onbeforeunload = function(e) {
+        //pwd.closeSession(function(){});
+        //return;
+    //}
 
 </script>
